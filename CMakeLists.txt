@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+project(myrgbd_slam)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH  ${PROJECT_SOURCE_DIR}/lib)
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/src)
+set(SOURCE_FILES main.cpp include/slamBase.h)
+add_executable(myrgbd_slam ${SOURCE_FILES})

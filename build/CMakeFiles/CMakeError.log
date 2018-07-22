@@ -1,0 +1,1265 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb1be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb1be.dir/build.make CMakeFiles/cmTC_eb1be.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb1be.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_eb1be.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eb1be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb1be.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eb1be.dir/CheckSymbolExists.c.o  -o cmTC_eb1be -rdynamic 
+CMakeFiles/cmTC_eb1be.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eb1be.dir/build.make:97: recipe for target 'cmTC_eb1be' failed
+make[1]: *** [cmTC_eb1be] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eb1be/fast' failed
+make: *** [cmTC_eb1be/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a72b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a72b.dir/build.make CMakeFiles/cmTC_6a72b.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a72b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6a72b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a72b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a72b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6a72b.dir/CheckFunctionExists.c.o  -o cmTC_6a72b -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6a72b.dir/build.make:97: recipe for target 'cmTC_6a72b' failed
+make[1]: *** [cmTC_6a72b] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6a72b/fast' failed
+make: *** [cmTC_6a72b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f61bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f61bf.dir/build.make CMakeFiles/cmTC_f61bf.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f61bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f61bf.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f61bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f61bf.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f61bf.dir/CheckSymbolExists.c.o  -o cmTC_f61bf -rdynamic 
+CMakeFiles/cmTC_f61bf.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f61bf.dir/build.make:97: recipe for target 'cmTC_f61bf' failed
+make[1]: *** [cmTC_f61bf] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f61bf/fast' failed
+make: *** [cmTC_f61bf/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2034/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2034.dir/build.make CMakeFiles/cmTC_b2034.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2034.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b2034.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2034
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2034.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b2034.dir/CheckFunctionExists.c.o  -o cmTC_b2034 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b2034.dir/build.make:97: recipe for target 'cmTC_b2034' failed
+make[1]: *** [cmTC_b2034] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b2034/fast' failed
+make: *** [cmTC_b2034/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a293/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a293.dir/build.make CMakeFiles/cmTC_8a293.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a293.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8a293.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8a293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a293.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8a293.dir/CheckSymbolExists.c.o  -o cmTC_8a293 -rdynamic 
+CMakeFiles/cmTC_8a293.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8a293.dir/build.make:97: recipe for target 'cmTC_8a293' failed
+make[1]: *** [cmTC_8a293] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8a293/fast' failed
+make: *** [cmTC_8a293/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9cbba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9cbba.dir/build.make CMakeFiles/cmTC_9cbba.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cbba.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9cbba.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cbba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cbba.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9cbba.dir/CheckFunctionExists.c.o  -o cmTC_9cbba -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9cbba.dir/build.make:97: recipe for target 'cmTC_9cbba' failed
+make[1]: *** [cmTC_9cbba] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9cbba/fast' failed
+make: *** [cmTC_9cbba/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ee8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ee8b.dir/build.make CMakeFiles/cmTC_5ee8b.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ee8b.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5ee8b.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5ee8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee8b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5ee8b.dir/CheckSymbolExists.c.o  -o cmTC_5ee8b -rdynamic 
+CMakeFiles/cmTC_5ee8b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5ee8b.dir/build.make:97: recipe for target 'cmTC_5ee8b' failed
+make[1]: *** [cmTC_5ee8b] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ee8b/fast' failed
+make: *** [cmTC_5ee8b/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c495.dir/build.make CMakeFiles/cmTC_5c495.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c495.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5c495.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c495.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5c495.dir/CheckFunctionExists.c.o  -o cmTC_5c495 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5c495.dir/build.make:97: recipe for target 'cmTC_5c495' failed
+make[1]: *** [cmTC_5c495] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5c495/fast' failed
+make: *** [cmTC_5c495/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a2cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a2cc.dir/build.make CMakeFiles/cmTC_1a2cc.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a2cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1a2cc.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a2cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a2cc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1a2cc.dir/CheckSymbolExists.c.o  -o cmTC_1a2cc -rdynamic 
+CMakeFiles/cmTC_1a2cc.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1a2cc.dir/build.make:97: recipe for target 'cmTC_1a2cc' failed
+make[1]: *** [cmTC_1a2cc] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1a2cc/fast' failed
+make: *** [cmTC_1a2cc/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1e73.dir/build.make CMakeFiles/cmTC_c1e73.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1e73.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c1e73.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e73.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c1e73.dir/CheckFunctionExists.c.o  -o cmTC_c1e73 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c1e73.dir/build.make:97: recipe for target 'cmTC_c1e73' failed
+make[1]: *** [cmTC_c1e73] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c1e73/fast' failed
+make: *** [cmTC_c1e73/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4317e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4317e.dir/build.make CMakeFiles/cmTC_4317e.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4317e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4317e.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4317e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4317e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4317e.dir/CheckSymbolExists.c.o  -o cmTC_4317e -rdynamic 
+CMakeFiles/cmTC_4317e.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4317e.dir/build.make:97: recipe for target 'cmTC_4317e' failed
+make[1]: *** [cmTC_4317e] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4317e/fast' failed
+make: *** [cmTC_4317e/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df088/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df088.dir/build.make CMakeFiles/cmTC_df088.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df088.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_df088.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df088.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_df088.dir/CheckFunctionExists.c.o  -o cmTC_df088 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_df088.dir/build.make:97: recipe for target 'cmTC_df088' failed
+make[1]: *** [cmTC_df088] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_df088/fast' failed
+make: *** [cmTC_df088/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de428/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de428.dir/build.make CMakeFiles/cmTC_de428.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de428.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_de428.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de428
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de428.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_de428.dir/CheckSymbolExists.c.o  -o cmTC_de428 -rdynamic 
+CMakeFiles/cmTC_de428.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_de428.dir/build.make:97: recipe for target 'cmTC_de428' failed
+make[1]: *** [cmTC_de428] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_de428/fast' failed
+make: *** [cmTC_de428/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39367/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39367.dir/build.make CMakeFiles/cmTC_39367.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39367.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39367.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39367.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_39367.dir/CheckFunctionExists.c.o  -o cmTC_39367 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39367.dir/build.make:97: recipe for target 'cmTC_39367' failed
+make[1]: *** [cmTC_39367] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39367/fast' failed
+make: *** [cmTC_39367/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6376/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6376.dir/build.make CMakeFiles/cmTC_e6376.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6376.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e6376.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6376
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6376.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e6376.dir/CheckSymbolExists.c.o  -o cmTC_e6376 -rdynamic 
+CMakeFiles/cmTC_e6376.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e6376.dir/build.make:97: recipe for target 'cmTC_e6376' failed
+make[1]: *** [cmTC_e6376] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6376/fast' failed
+make: *** [cmTC_e6376/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b95c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b95c.dir/build.make CMakeFiles/cmTC_8b95c.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b95c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b95c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b95c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b95c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8b95c.dir/CheckFunctionExists.c.o  -o cmTC_8b95c -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8b95c.dir/build.make:97: recipe for target 'cmTC_8b95c' failed
+make[1]: *** [cmTC_8b95c] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8b95c/fast' failed
+make: *** [cmTC_8b95c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec607/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec607.dir/build.make CMakeFiles/cmTC_ec607.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec607.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ec607.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ec607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec607.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ec607.dir/CheckSymbolExists.c.o  -o cmTC_ec607 -rdynamic 
+CMakeFiles/cmTC_ec607.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ec607.dir/build.make:97: recipe for target 'cmTC_ec607' failed
+make[1]: *** [cmTC_ec607] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec607/fast' failed
+make: *** [cmTC_ec607/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_481fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_481fd.dir/build.make CMakeFiles/cmTC_481fd.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_481fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_481fd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_481fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_481fd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_481fd.dir/CheckFunctionExists.c.o  -o cmTC_481fd -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_481fd.dir/build.make:97: recipe for target 'cmTC_481fd' failed
+make[1]: *** [cmTC_481fd] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_481fd/fast' failed
+make: *** [cmTC_481fd/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd134/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd134.dir/build.make CMakeFiles/cmTC_dd134.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd134.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dd134.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dd134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd134.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dd134.dir/CheckSymbolExists.c.o  -o cmTC_dd134 -rdynamic 
+CMakeFiles/cmTC_dd134.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dd134.dir/build.make:97: recipe for target 'cmTC_dd134' failed
+make[1]: *** [cmTC_dd134] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd134/fast' failed
+make: *** [cmTC_dd134/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccfc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccfc4.dir/build.make CMakeFiles/cmTC_ccfc4.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccfc4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ccfc4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ccfc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfc4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ccfc4.dir/CheckFunctionExists.c.o  -o cmTC_ccfc4 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ccfc4.dir/build.make:97: recipe for target 'cmTC_ccfc4' failed
+make[1]: *** [cmTC_ccfc4] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccfc4/fast' failed
+make: *** [cmTC_ccfc4/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_491cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_491cc.dir/build.make CMakeFiles/cmTC_491cc.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_491cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_491cc.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_491cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491cc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_491cc.dir/CheckSymbolExists.c.o  -o cmTC_491cc -rdynamic 
+CMakeFiles/cmTC_491cc.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_491cc.dir/build.make:97: recipe for target 'cmTC_491cc' failed
+make[1]: *** [cmTC_491cc] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_491cc/fast' failed
+make: *** [cmTC_491cc/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09deb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09deb.dir/build.make CMakeFiles/cmTC_09deb.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09deb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09deb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09deb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09deb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_09deb.dir/CheckFunctionExists.c.o  -o cmTC_09deb -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09deb.dir/build.make:97: recipe for target 'cmTC_09deb' failed
+make[1]: *** [cmTC_09deb] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_09deb/fast' failed
+make: *** [cmTC_09deb/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9e87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9e87.dir/build.make CMakeFiles/cmTC_c9e87.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9e87.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c9e87.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c9e87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9e87.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c9e87.dir/CheckSymbolExists.c.o  -o cmTC_c9e87 -rdynamic 
+CMakeFiles/cmTC_c9e87.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c9e87.dir/build.make:97: recipe for target 'cmTC_c9e87' failed
+make[1]: *** [cmTC_c9e87] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c9e87/fast' failed
+make: *** [cmTC_c9e87/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3034/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3034.dir/build.make CMakeFiles/cmTC_e3034.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3034.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e3034.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3034
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3034.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e3034.dir/CheckFunctionExists.c.o  -o cmTC_e3034 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e3034.dir/build.make:97: recipe for target 'cmTC_e3034' failed
+make[1]: *** [cmTC_e3034] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e3034/fast' failed
+make: *** [cmTC_e3034/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d114f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d114f.dir/build.make CMakeFiles/cmTC_d114f.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d114f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d114f.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d114f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d114f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d114f.dir/CheckSymbolExists.c.o  -o cmTC_d114f -rdynamic 
+CMakeFiles/cmTC_d114f.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d114f.dir/build.make:97: recipe for target 'cmTC_d114f' failed
+make[1]: *** [cmTC_d114f] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d114f/fast' failed
+make: *** [cmTC_d114f/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b971/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b971.dir/build.make CMakeFiles/cmTC_2b971.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b971.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2b971.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b971
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b971.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2b971.dir/CheckFunctionExists.c.o  -o cmTC_2b971 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2b971.dir/build.make:97: recipe for target 'cmTC_2b971' failed
+make[1]: *** [cmTC_2b971] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b971/fast' failed
+make: *** [cmTC_2b971/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c51f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c51f.dir/build.make CMakeFiles/cmTC_6c51f.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c51f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6c51f.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6c51f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c51f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6c51f.dir/CheckSymbolExists.c.o  -o cmTC_6c51f -rdynamic 
+CMakeFiles/cmTC_6c51f.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6c51f.dir/build.make:97: recipe for target 'cmTC_6c51f' failed
+make[1]: *** [cmTC_6c51f] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6c51f/fast' failed
+make: *** [cmTC_6c51f/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb236/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb236.dir/build.make CMakeFiles/cmTC_cb236.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb236.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cb236.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb236
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb236.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cb236.dir/CheckFunctionExists.c.o  -o cmTC_cb236 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cb236.dir/build.make:97: recipe for target 'cmTC_cb236' failed
+make[1]: *** [cmTC_cb236] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb236/fast' failed
+make: *** [cmTC_cb236/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39a4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39a4a.dir/build.make CMakeFiles/cmTC_39a4a.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39a4a.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_39a4a.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_39a4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39a4a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_39a4a.dir/CheckSymbolExists.c.o  -o cmTC_39a4a -rdynamic 
+CMakeFiles/cmTC_39a4a.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39a4a.dir/build.make:97: recipe for target 'cmTC_39a4a' failed
+make[1]: *** [cmTC_39a4a] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39a4a/fast' failed
+make: *** [cmTC_39a4a/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2ccd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2ccd.dir/build.make CMakeFiles/cmTC_a2ccd.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2ccd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a2ccd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2ccd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2ccd.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a2ccd.dir/CheckFunctionExists.c.o  -o cmTC_a2ccd -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a2ccd.dir/build.make:97: recipe for target 'cmTC_a2ccd' failed
+make[1]: *** [cmTC_a2ccd] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a2ccd/fast' failed
+make: *** [cmTC_a2ccd/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57039/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57039.dir/build.make CMakeFiles/cmTC_57039.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57039.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_57039.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_57039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57039.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_57039.dir/CheckSymbolExists.c.o  -o cmTC_57039 -rdynamic 
+CMakeFiles/cmTC_57039.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_57039.dir/build.make:97: recipe for target 'cmTC_57039' failed
+make[1]: *** [cmTC_57039] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57039/fast' failed
+make: *** [cmTC_57039/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15693/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15693.dir/build.make CMakeFiles/cmTC_15693.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15693.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_15693.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15693.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_15693.dir/CheckFunctionExists.c.o  -o cmTC_15693 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_15693.dir/build.make:97: recipe for target 'cmTC_15693' failed
+make[1]: *** [cmTC_15693] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15693/fast' failed
+make: *** [cmTC_15693/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a9d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a9d8.dir/build.make CMakeFiles/cmTC_6a9d8.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a9d8.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6a9d8.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6a9d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a9d8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6a9d8.dir/CheckSymbolExists.c.o  -o cmTC_6a9d8 -rdynamic 
+CMakeFiles/cmTC_6a9d8.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6a9d8.dir/build.make:97: recipe for target 'cmTC_6a9d8' failed
+make[1]: *** [cmTC_6a9d8] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6a9d8/fast' failed
+make: *** [cmTC_6a9d8/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26b92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26b92.dir/build.make CMakeFiles/cmTC_26b92.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26b92.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_26b92.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26b92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26b92.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_26b92.dir/CheckFunctionExists.c.o  -o cmTC_26b92 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26b92.dir/build.make:97: recipe for target 'cmTC_26b92' failed
+make[1]: *** [cmTC_26b92] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26b92/fast' failed
+make: *** [cmTC_26b92/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b90b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b90b.dir/build.make CMakeFiles/cmTC_5b90b.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b90b.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5b90b.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5b90b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b90b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5b90b.dir/CheckSymbolExists.c.o  -o cmTC_5b90b -rdynamic 
+CMakeFiles/cmTC_5b90b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5b90b.dir/build.make:97: recipe for target 'cmTC_5b90b' failed
+make[1]: *** [cmTC_5b90b] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5b90b/fast' failed
+make: *** [cmTC_5b90b/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf208/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf208.dir/build.make CMakeFiles/cmTC_cf208.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf208.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf208.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf208.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cf208.dir/CheckFunctionExists.c.o  -o cmTC_cf208 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf208.dir/build.make:97: recipe for target 'cmTC_cf208' failed
+make[1]: *** [cmTC_cf208] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf208/fast' failed
+make: *** [cmTC_cf208/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9639/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9639.dir/build.make CMakeFiles/cmTC_a9639.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9639.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a9639.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9639
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9639.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a9639.dir/CheckSymbolExists.c.o  -o cmTC_a9639 -rdynamic 
+CMakeFiles/cmTC_a9639.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a9639.dir/build.make:97: recipe for target 'cmTC_a9639' failed
+make[1]: *** [cmTC_a9639] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9639/fast' failed
+make: *** [cmTC_a9639/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81a43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81a43.dir/build.make CMakeFiles/cmTC_81a43.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81a43.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_81a43.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81a43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a43.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_81a43.dir/CheckFunctionExists.c.o  -o cmTC_81a43 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_81a43.dir/build.make:97: recipe for target 'cmTC_81a43' failed
+make[1]: *** [cmTC_81a43] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81a43/fast' failed
+make: *** [cmTC_81a43/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77de8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77de8.dir/build.make CMakeFiles/cmTC_77de8.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77de8.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77de8.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_77de8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77de8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77de8.dir/CheckSymbolExists.c.o  -o cmTC_77de8 -rdynamic 
+CMakeFiles/cmTC_77de8.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_77de8.dir/build.make:97: recipe for target 'cmTC_77de8' failed
+make[1]: *** [cmTC_77de8] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_77de8/fast' failed
+make: *** [cmTC_77de8/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b84c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b84c3.dir/build.make CMakeFiles/cmTC_b84c3.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b84c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b84c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b84c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b84c3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b84c3.dir/CheckFunctionExists.c.o  -o cmTC_b84c3 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b84c3.dir/build.make:97: recipe for target 'cmTC_b84c3' failed
+make[1]: *** [cmTC_b84c3] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b84c3/fast' failed
+make: *** [cmTC_b84c3/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cb19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cb19.dir/build.make CMakeFiles/cmTC_5cb19.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cb19.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5cb19.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5cb19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cb19.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5cb19.dir/CheckSymbolExists.c.o  -o cmTC_5cb19 -rdynamic 
+CMakeFiles/cmTC_5cb19.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5cb19.dir/build.make:97: recipe for target 'cmTC_5cb19' failed
+make[1]: *** [cmTC_5cb19] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5cb19/fast' failed
+make: *** [cmTC_5cb19/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81ef7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81ef7.dir/build.make CMakeFiles/cmTC_81ef7.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81ef7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_81ef7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81ef7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ef7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_81ef7.dir/CheckFunctionExists.c.o  -o cmTC_81ef7 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_81ef7.dir/build.make:97: recipe for target 'cmTC_81ef7' failed
+make[1]: *** [cmTC_81ef7] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_81ef7/fast' failed
+make: *** [cmTC_81ef7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e6e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e6e1.dir/build.make CMakeFiles/cmTC_9e6e1.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e6e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9e6e1.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9e6e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e6e1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9e6e1.dir/CheckSymbolExists.c.o  -o cmTC_9e6e1 -rdynamic 
+CMakeFiles/cmTC_9e6e1.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9e6e1.dir/build.make:97: recipe for target 'cmTC_9e6e1' failed
+make[1]: *** [cmTC_9e6e1] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9e6e1/fast' failed
+make: *** [cmTC_9e6e1/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a86b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a86b.dir/build.make CMakeFiles/cmTC_0a86b.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a86b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0a86b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a86b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a86b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0a86b.dir/CheckFunctionExists.c.o  -o cmTC_0a86b -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0a86b.dir/build.make:97: recipe for target 'cmTC_0a86b' failed
+make[1]: *** [cmTC_0a86b] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0a86b/fast' failed
+make: *** [cmTC_0a86b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcd77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcd77.dir/build.make CMakeFiles/cmTC_bcd77.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcd77.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bcd77.dir/CheckSymbolExists.c.o   -c /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bcd77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd77.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bcd77.dir/CheckSymbolExists.c.o  -o cmTC_bcd77 -rdynamic 
+CMakeFiles/cmTC_bcd77.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bcd77.dir/build.make:97: recipe for target 'cmTC_bcd77' failed
+make[1]: *** [cmTC_bcd77] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bcd77/fast' failed
+make: *** [cmTC_bcd77/fast] Error 2
+
+File /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cb71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cb71.dir/build.make CMakeFiles/cmTC_6cb71.dir/build
+make[1]: Entering directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cb71.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6cb71.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6cb71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb71.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6cb71.dir/CheckFunctionExists.c.o  -o cmTC_6cb71 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6cb71.dir/build.make:97: recipe for target 'cmTC_6cb71' failed
+make[1]: *** [cmTC_6cb71] Error 1
+make[1]: Leaving directory '/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6cb71/fast' failed
+make: *** [cmTC_6cb71/fast] Error 2
+
+

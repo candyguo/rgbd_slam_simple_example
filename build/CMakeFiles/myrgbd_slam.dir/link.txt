@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/myrgbd_slam.dir/main.cpp.o  -o ../bin/myrgbd_slam  -L/home/ccfy/slam_study/slam_projects/myrgbd_slam/lib -rdynamic 
