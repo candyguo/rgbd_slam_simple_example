@@ -4,7 +4,7 @@
 src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
  ../include/json.hpp
  ../include/slamBase.h
- /home/ccfy/slam_study/slam_projects/myrgbd_slam/src/visualOdometry.cpp
+ /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/visualOdometry.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

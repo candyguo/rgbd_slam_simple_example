@@ -320,11 +320,11 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/detectFeatures.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/detectFeatures.cpp
 iostream
 -
 slamBase.h
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.h
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.h
 opencv2/features2d/features2d.hpp
 -
 opencv2/nonfree/nonfree.hpp

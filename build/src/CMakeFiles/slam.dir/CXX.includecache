@@ -320,7 +320,7 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slam.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slam.cpp
 iostream
 -
 fstream
@@ -330,7 +330,9 @@ sophus/se3.h
 pangolin/pangolin.h
 -
 slamBase.h
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.h
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.h
+glog/logging.h
+-
 g2o/types/slam3d/types_slam3d.h
 -
 g2o/core/sparse_optimizer.h

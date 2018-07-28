@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ccfy/slam_study/slam_projects/myrgbd_slam
+CMAKE_SOURCE_DIR = /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ccfy/slam_study/slam_projects/myrgbd_slam/build
+CMAKE_BINARY_DIR = /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/src/CMakeFiles/progress.marks
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles 0
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/CMakeFiles /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/src/CMakeFiles/progress.marks
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/visualOdometry.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
 .PHONY : src/CMakeFiles/visualOdometry.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ visualOdometry: src/CMakeFiles/visualOdometry.dir/rule
 
 # fast build rule for target.
 visualOdometry/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
 .PHONY : visualOdometry/fast
 
 # Convenience name for target.
 src/CMakeFiles/slambase.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
 .PHONY : src/CMakeFiles/slambase.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ slambase: src/CMakeFiles/slambase.dir/rule
 
 # fast build rule for target.
 slambase/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
 .PHONY : slambase/fast
 
 # Convenience name for target.
 src/CMakeFiles/detectFeatures.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
 .PHONY : src/CMakeFiles/detectFeatures.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
 
 # fast build rule for target.
 detectFeatures/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
 .PHONY : detectFeatures/fast
 
 # Convenience name for target.
 src/CMakeFiles/jointPointCloud.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/jointPointCloud.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/jointPointCloud.dir/rule
 .PHONY : src/CMakeFiles/jointPointCloud.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ jointPointCloud: src/CMakeFiles/jointPointCloud.dir/rule
 
 # fast build rule for target.
 jointPointCloud/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/build
 .PHONY : jointPointCloud/fast
 
 # Convenience name for target.
 src/CMakeFiles/slam.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
 .PHONY : src/CMakeFiles/slam.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ slam: src/CMakeFiles/slam.dir/rule
 
 # fast build rule for target.
 slam/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
 .PHONY : slam/fast
 
 # Convenience name for target.
 src/CMakeFiles/slamEnd.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slamEnd.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slamEnd.dir/rule
 .PHONY : src/CMakeFiles/slamEnd.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ slamEnd: src/CMakeFiles/slamEnd.dir/rule
 
 # fast build rule for target.
 slamEnd/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/build
 .PHONY : slamEnd/fast
 
 # Convenience name for target.
 src/CMakeFiles/generate_pointcloud.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
 
 # fast build rule for target.
 generate_pointcloud/fast:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
 .PHONY : generate_pointcloud/fast
 
 detectFeatures.o: detectFeatures.cpp.o
@@ -221,7 +221,7 @@ detectFeatures.o: detectFeatures.cpp.o
 
 # target to build an object file
 detectFeatures.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
 .PHONY : detectFeatures.cpp.o
 
 detectFeatures.i: detectFeatures.cpp.i
@@ -230,7 +230,7 @@ detectFeatures.i: detectFeatures.cpp.i
 
 # target to preprocess a source file
 detectFeatures.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
 .PHONY : detectFeatures.cpp.i
 
 detectFeatures.s: detectFeatures.cpp.s
@@ -239,7 +239,7 @@ detectFeatures.s: detectFeatures.cpp.s
 
 # target to generate assembly for a file
 detectFeatures.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
 .PHONY : detectFeatures.cpp.s
 
 generatePointCloud.o: generatePointCloud.cpp.o
@@ -248,7 +248,7 @@ generatePointCloud.o: generatePointCloud.cpp.o
 
 # target to build an object file
 generatePointCloud.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
 .PHONY : generatePointCloud.cpp.o
 
 generatePointCloud.i: generatePointCloud.cpp.i
@@ -257,7 +257,7 @@ generatePointCloud.i: generatePointCloud.cpp.i
 
 # target to preprocess a source file
 generatePointCloud.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
 .PHONY : generatePointCloud.cpp.i
 
 generatePointCloud.s: generatePointCloud.cpp.s
@@ -266,7 +266,7 @@ generatePointCloud.s: generatePointCloud.cpp.s
 
 # target to generate assembly for a file
 generatePointCloud.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
 .PHONY : generatePointCloud.cpp.s
 
 jointPointCloud.o: jointPointCloud.cpp.o
@@ -275,7 +275,7 @@ jointPointCloud.o: jointPointCloud.cpp.o
 
 # target to build an object file
 jointPointCloud.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.o
 .PHONY : jointPointCloud.cpp.o
 
 jointPointCloud.i: jointPointCloud.cpp.i
@@ -284,7 +284,7 @@ jointPointCloud.i: jointPointCloud.cpp.i
 
 # target to preprocess a source file
 jointPointCloud.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.i
 .PHONY : jointPointCloud.cpp.i
 
 jointPointCloud.s: jointPointCloud.cpp.s
@@ -293,7 +293,7 @@ jointPointCloud.s: jointPointCloud.cpp.s
 
 # target to generate assembly for a file
 jointPointCloud.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/jointPointCloud.dir/build.make src/CMakeFiles/jointPointCloud.dir/jointPointCloud.cpp.s
 .PHONY : jointPointCloud.cpp.s
 
 slam.o: slam.cpp.o
@@ -302,7 +302,7 @@ slam.o: slam.cpp.o
 
 # target to build an object file
 slam.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.o
 .PHONY : slam.cpp.o
 
 slam.i: slam.cpp.i
@@ -311,7 +311,7 @@ slam.i: slam.cpp.i
 
 # target to preprocess a source file
 slam.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.i
 .PHONY : slam.cpp.i
 
 slam.s: slam.cpp.s
@@ -320,7 +320,7 @@ slam.s: slam.cpp.s
 
 # target to generate assembly for a file
 slam.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.s
 .PHONY : slam.cpp.s
 
 slamBase.o: slamBase.cpp.o
@@ -329,7 +329,7 @@ slamBase.o: slamBase.cpp.o
 
 # target to build an object file
 slamBase.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.o
 .PHONY : slamBase.cpp.o
 
 slamBase.i: slamBase.cpp.i
@@ -338,7 +338,7 @@ slamBase.i: slamBase.cpp.i
 
 # target to preprocess a source file
 slamBase.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.i
 .PHONY : slamBase.cpp.i
 
 slamBase.s: slamBase.cpp.s
@@ -347,7 +347,7 @@ slamBase.s: slamBase.cpp.s
 
 # target to generate assembly for a file
 slamBase.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
 .PHONY : slamBase.cpp.s
 
 slamEnd.o: slamEnd.cpp.o
@@ -356,7 +356,7 @@ slamEnd.o: slamEnd.cpp.o
 
 # target to build an object file
 slamEnd.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o
 .PHONY : slamEnd.cpp.o
 
 slamEnd.i: slamEnd.cpp.i
@@ -365,7 +365,7 @@ slamEnd.i: slamEnd.cpp.i
 
 # target to preprocess a source file
 slamEnd.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.i
 .PHONY : slamEnd.cpp.i
 
 slamEnd.s: slamEnd.cpp.s
@@ -374,7 +374,7 @@ slamEnd.s: slamEnd.cpp.s
 
 # target to generate assembly for a file
 slamEnd.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.s
 .PHONY : slamEnd.cpp.s
 
 visualOdometry.o: visualOdometry.cpp.o
@@ -383,7 +383,7 @@ visualOdometry.o: visualOdometry.cpp.o
 
 # target to build an object file
 visualOdometry.cpp.o:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
 .PHONY : visualOdometry.cpp.o
 
 visualOdometry.i: visualOdometry.cpp.i
@@ -392,7 +392,7 @@ visualOdometry.i: visualOdometry.cpp.i
 
 # target to preprocess a source file
 visualOdometry.cpp.i:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.i
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.i
 .PHONY : visualOdometry.cpp.i
 
 visualOdometry.s: visualOdometry.cpp.s
@@ -401,7 +401,7 @@ visualOdometry.s: visualOdometry.cpp.s
 
 # target to generate assembly for a file
 visualOdometry.cpp.s:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.s
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.s
 .PHONY : visualOdometry.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ccfy/slam_study/slam_projects/myrgbd_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

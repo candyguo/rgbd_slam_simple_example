@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamEnd.cpp" "/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o"
+  "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamEnd.cpp" "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -65,7 +65,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/src/CMakeFiles/slambase.dir/DependInfo.cmake"
+  "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/src/CMakeFiles/slambase.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

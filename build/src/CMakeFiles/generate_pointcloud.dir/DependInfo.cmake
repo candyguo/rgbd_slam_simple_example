@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/generatePointCloud.cpp" "/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o"
+  "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/generatePointCloud.cpp" "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

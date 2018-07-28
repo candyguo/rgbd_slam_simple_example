@@ -320,11 +320,11 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/jointPointCloud.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/jointPointCloud.cpp
 iostream
 -
 slamBase.h
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.h
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.h
 pcl/common/transforms.h
 -
 pcl/visualization/cloud_viewer.h

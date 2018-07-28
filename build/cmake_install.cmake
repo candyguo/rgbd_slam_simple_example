@@ -1,4 +1,4 @@
-# Install script for directory: /home/ccfy/slam_study/slam_projects/myrgbd_slam
+# Install script for directory: /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/src/cmake_install.cmake")
+  include("/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

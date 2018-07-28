@@ -4,7 +4,7 @@
 src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o
  ../include/json.hpp
  ../include/slamBase.h
- /home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamEnd.cpp
+ /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamEnd.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

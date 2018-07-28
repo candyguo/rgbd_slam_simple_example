@@ -1,6 +1,11 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 list( APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules )
+
+
+find_package(Glog REQUIRED)
+include_directories(${GLOG_INCLUDE_DIRS})
+
 # g2o
 SET( G2O_ROOT /usr/local/include/g2o )
 FIND_PACKAGE( G2O REQUIRED )
@@ -51,4 +56,4 @@ target_link_libraries(slamEnd slambase ${OpenCV_LIBS} ${PCL_LIBRARIES}
 add_executable(slam slam.cpp)
 target_link_libraries(slam slambase ${OpenCV_LIBS} ${PCL_LIBRARIES}
         ${Sophus_LIBRARIES} g2o_core g2o_types_slam3d g2o_solver_csparse
-        g2o_stuff g2o_csparse_extension ${CSPARSE_LIBRARY} ${Pangolin_LIBRARIES})
+        g2o_stuff g2o_csparse_extension ${CSPARSE_LIBRARY} ${Pangolin_LIBRARIES} glog)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ccfy/slam_study/slam_projects/myrgbd_slam/src
+# Install script for directory: /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

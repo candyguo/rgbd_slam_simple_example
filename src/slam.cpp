@@ -10,6 +10,7 @@
 using namespace std;
 
 #include "slamBase.h"
+#include <glog/logging.h>
 
 //g2o header file , in g2o edge is measurement and vertex is estimation
 #include <g2o/types/slam3d/types_slam3d.h>
@@ -113,6 +114,8 @@ void checkRandomLoops(vector<FRAME>&frames,FRAME& curframe,g2o::SparseOptimizer&
 
 int main(int argc, char** argv)
 {
+	google::InitGoogleLogging(argv[0]);
+	FLAGS_log_dir = "../log";
 	Config config;
 	int start_index = config.getConfigPara().at("start_index").get<int>();
 	int end_index = config.getConfigPara().at("end_index").get<int>();
@@ -274,6 +277,7 @@ CHECK_RESULT check_key_frames(FRAME& f1,FRAME& f2, g2o::SparseOptimizer& opti, b
 	edge->setInformation(infomation);
 	Eigen::Isometry3d T = cvMat2Eigen(result.tvec,result.rvec);
 	edge->setMeasurement(T.inverse());
+	LOG(INFO) <<"T.INVERSE is used";
 	opti.addEdge(edge);
 	return KEYFRAME;
 

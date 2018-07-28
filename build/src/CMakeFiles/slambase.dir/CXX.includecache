@@ -320,9 +320,9 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.cpp
 slamBase.h
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.h
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.h
 opencv2/core/eigen.hpp
 -
 

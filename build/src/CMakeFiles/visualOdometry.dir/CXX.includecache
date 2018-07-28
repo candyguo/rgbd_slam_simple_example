@@ -320,7 +320,7 @@ pcl/filters/voxel_grid.h
 pcl/filters/passthrough.h
 -
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/visualOdometry.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/visualOdometry.cpp
 iostream
 -
 fstream
@@ -332,7 +332,7 @@ sophus/se3.h
 pangolin/pangolin.h
 -
 slamBase.h
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/slamBase.h
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/slamBase.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

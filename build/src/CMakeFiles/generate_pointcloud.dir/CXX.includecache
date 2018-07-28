@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ccfy/slam_study/slam_projects/myrgbd_slam/src/generatePointCloud.cpp
+/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/src/generatePointCloud.cpp
 iostream
 -
 string

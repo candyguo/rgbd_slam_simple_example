@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ccfy/slam_study/slam_projects/myrgbd_slam/include 
+CXX_INCLUDES = -I/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/include 
 

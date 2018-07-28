@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ccfy/slam_study/slam_projects/myrgbd_slam/main.cpp" "/home/ccfy/slam_study/slam_projects/myrgbd_slam/build/CMakeFiles/myrgbd_slam.dir/main.cpp.o"
+  "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/main.cpp" "/home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build/CMakeFiles/myrgbd_slam.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
