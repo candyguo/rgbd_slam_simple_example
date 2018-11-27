@@ -2,10 +2,12 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/slamEnd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/stereoVision.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/slam.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Dense_Mono.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/slamEnd.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/visualOdometry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/slam.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/detectFeatures.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/slamBase.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/generatePointCloud.cpp" isTestSource="false" />

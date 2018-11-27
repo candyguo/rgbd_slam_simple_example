@@ -425,6 +425,10 @@ src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/flann/def
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/flann/miniflann.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
+src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/imgproc/imgproc.hpp
+src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/imgproc/types_c.h
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/nonfree/features2d.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/opencv2/nonfree/nonfree.hpp
+src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/sophus/se3.h
+src/CMakeFiles/slambase.dir/slamBase.cpp.o: /usr/local/include/sophus/so3.h
 

@@ -426,5 +426,9 @@ src/CMakeFiles/slambase.dir/slamBase.cpp.o
  /usr/local/include/opencv2/flann/miniflann.hpp
  /usr/local/include/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv2/highgui/highgui_c.h
+ /usr/local/include/opencv2/imgproc/imgproc.hpp
+ /usr/local/include/opencv2/imgproc/types_c.h
  /usr/local/include/opencv2/nonfree/features2d.hpp
  /usr/local/include/opencv2/nonfree/nonfree.hpp
+ /usr/local/include/sophus/se3.h
+ /usr/local/include/sophus/so3.h

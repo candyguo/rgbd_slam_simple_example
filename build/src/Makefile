@@ -111,49 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/visualOdometry.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
-.PHONY : src/CMakeFiles/visualOdometry.dir/rule
+src/CMakeFiles/slam.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
+.PHONY : src/CMakeFiles/slam.dir/rule
 
 # Convenience name for target.
-visualOdometry: src/CMakeFiles/visualOdometry.dir/rule
+slam: src/CMakeFiles/slam.dir/rule
 
-.PHONY : visualOdometry
+.PHONY : slam
 
 # fast build rule for target.
-visualOdometry/fast:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
-.PHONY : visualOdometry/fast
-
-# Convenience name for target.
-src/CMakeFiles/slambase.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
-.PHONY : src/CMakeFiles/slambase.dir/rule
-
-# Convenience name for target.
-slambase: src/CMakeFiles/slambase.dir/rule
-
-.PHONY : slambase
-
-# fast build rule for target.
-slambase/fast:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
-.PHONY : slambase/fast
-
-# Convenience name for target.
-src/CMakeFiles/detectFeatures.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
-.PHONY : src/CMakeFiles/detectFeatures.dir/rule
-
-# Convenience name for target.
-detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
-
-.PHONY : detectFeatures
-
-# fast build rule for target.
-detectFeatures/fast:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
-.PHONY : detectFeatures/fast
+slam/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
+.PHONY : slam/fast
 
 # Convenience name for target.
 src/CMakeFiles/jointPointCloud.dir/rule:
@@ -171,19 +141,79 @@ jointPointCloud/fast:
 .PHONY : jointPointCloud/fast
 
 # Convenience name for target.
-src/CMakeFiles/slam.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
-.PHONY : src/CMakeFiles/slam.dir/rule
+src/CMakeFiles/detectFeatures.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
+.PHONY : src/CMakeFiles/detectFeatures.dir/rule
 
 # Convenience name for target.
-slam: src/CMakeFiles/slam.dir/rule
+detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
 
-.PHONY : slam
+.PHONY : detectFeatures
 
 # fast build rule for target.
-slam/fast:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
-.PHONY : slam/fast
+detectFeatures/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
+.PHONY : detectFeatures/fast
+
+# Convenience name for target.
+src/CMakeFiles/generate_pointcloud.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
+.PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
+
+# Convenience name for target.
+generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
+
+.PHONY : generate_pointcloud
+
+# fast build rule for target.
+generate_pointcloud/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+.PHONY : generate_pointcloud/fast
+
+# Convenience name for target.
+src/CMakeFiles/Dense_Mono.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Dense_Mono.dir/rule
+.PHONY : src/CMakeFiles/Dense_Mono.dir/rule
+
+# Convenience name for target.
+Dense_Mono: src/CMakeFiles/Dense_Mono.dir/rule
+
+.PHONY : Dense_Mono
+
+# fast build rule for target.
+Dense_Mono/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/Dense_Mono.dir/build.make src/CMakeFiles/Dense_Mono.dir/build
+.PHONY : Dense_Mono/fast
+
+# Convenience name for target.
+src/CMakeFiles/slambase.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
+.PHONY : src/CMakeFiles/slambase.dir/rule
+
+# Convenience name for target.
+slambase: src/CMakeFiles/slambase.dir/rule
+
+.PHONY : slambase
+
+# fast build rule for target.
+slambase/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
+.PHONY : slambase/fast
+
+# Convenience name for target.
+src/CMakeFiles/visualOdometry.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
+.PHONY : src/CMakeFiles/visualOdometry.dir/rule
+
+# Convenience name for target.
+visualOdometry: src/CMakeFiles/visualOdometry.dir/rule
+
+.PHONY : visualOdometry
+
+# fast build rule for target.
+visualOdometry/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+.PHONY : visualOdometry/fast
 
 # Convenience name for target.
 src/CMakeFiles/slamEnd.dir/rule:
@@ -201,19 +231,46 @@ slamEnd/fast:
 .PHONY : slamEnd/fast
 
 # Convenience name for target.
-src/CMakeFiles/generate_pointcloud.dir/rule:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
-.PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
+src/CMakeFiles/stereoVision.dir/rule:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/stereoVision.dir/rule
+.PHONY : src/CMakeFiles/stereoVision.dir/rule
 
 # Convenience name for target.
-generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
+stereoVision: src/CMakeFiles/stereoVision.dir/rule
 
-.PHONY : generate_pointcloud
+.PHONY : stereoVision
 
 # fast build rule for target.
-generate_pointcloud/fast:
-	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
-.PHONY : generate_pointcloud/fast
+stereoVision/fast:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/stereoVision.dir/build.make src/CMakeFiles/stereoVision.dir/build
+.PHONY : stereoVision/fast
+
+Dense_Mono.o: Dense_Mono.cpp.o
+
+.PHONY : Dense_Mono.o
+
+# target to build an object file
+Dense_Mono.cpp.o:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/Dense_Mono.dir/build.make src/CMakeFiles/Dense_Mono.dir/Dense_Mono.cpp.o
+.PHONY : Dense_Mono.cpp.o
+
+Dense_Mono.i: Dense_Mono.cpp.i
+
+.PHONY : Dense_Mono.i
+
+# target to preprocess a source file
+Dense_Mono.cpp.i:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/Dense_Mono.dir/build.make src/CMakeFiles/Dense_Mono.dir/Dense_Mono.cpp.i
+.PHONY : Dense_Mono.cpp.i
+
+Dense_Mono.s: Dense_Mono.cpp.s
+
+.PHONY : Dense_Mono.s
+
+# target to generate assembly for a file
+Dense_Mono.cpp.s:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/Dense_Mono.dir/build.make src/CMakeFiles/Dense_Mono.dir/Dense_Mono.cpp.s
+.PHONY : Dense_Mono.cpp.s
 
 detectFeatures.o: detectFeatures.cpp.o
 
@@ -377,6 +434,33 @@ slamEnd.cpp.s:
 	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.s
 .PHONY : slamEnd.cpp.s
 
+stereoVision.o: stereoVision.cpp.o
+
+.PHONY : stereoVision.o
+
+# target to build an object file
+stereoVision.cpp.o:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/stereoVision.dir/build.make src/CMakeFiles/stereoVision.dir/stereoVision.cpp.o
+.PHONY : stereoVision.cpp.o
+
+stereoVision.i: stereoVision.cpp.i
+
+.PHONY : stereoVision.i
+
+# target to preprocess a source file
+stereoVision.cpp.i:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/stereoVision.dir/build.make src/CMakeFiles/stereoVision.dir/stereoVision.cpp.i
+.PHONY : stereoVision.cpp.i
+
+stereoVision.s: stereoVision.cpp.s
+
+.PHONY : stereoVision.s
+
+# target to generate assembly for a file
+stereoVision.cpp.s:
+	cd /home/ccfy/slam_study/slam_projects/rgbd_slam_simple_example/build && $(MAKE) -f src/CMakeFiles/stereoVision.dir/build.make src/CMakeFiles/stereoVision.dir/stereoVision.cpp.s
+.PHONY : stereoVision.cpp.s
+
 visualOdometry.o: visualOdometry.cpp.o
 
 .PHONY : visualOdometry.o
@@ -410,15 +494,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... visualOdometry"
-	@echo "... slambase"
-	@echo "... detectFeatures"
-	@echo "... jointPointCloud"
 	@echo "... slam"
-	@echo "... slamEnd"
+	@echo "... edit_cache"
+	@echo "... jointPointCloud"
+	@echo "... detectFeatures"
 	@echo "... generate_pointcloud"
+	@echo "... Dense_Mono"
+	@echo "... slambase"
+	@echo "... visualOdometry"
+	@echo "... slamEnd"
+	@echo "... stereoVision"
+	@echo "... rebuild_cache"
+	@echo "... Dense_Mono.o"
+	@echo "... Dense_Mono.i"
+	@echo "... Dense_Mono.s"
 	@echo "... detectFeatures.o"
 	@echo "... detectFeatures.i"
 	@echo "... detectFeatures.s"
@@ -437,6 +526,9 @@ help:
 	@echo "... slamEnd.o"
 	@echo "... slamEnd.i"
 	@echo "... slamEnd.s"
+	@echo "... stereoVision.o"
+	@echo "... stereoVision.i"
+	@echo "... stereoVision.s"
 	@echo "... visualOdometry.o"
 	@echo "... visualOdometry.i"
 	@echo "... visualOdometry.s"

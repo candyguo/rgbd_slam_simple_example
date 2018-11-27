@@ -1,14 +1,11 @@
 {
-    "detector"           : "SIFT",
-    "descriptor"                 : "SIFT",
+    "detector"          :"SIFT",
+    "descriptor"                 :"SIFT",
     "good_match_threshold"           : 20,
-
     "camera_cx"      : 325.5,
     "camera_cy"       : 253.5,
-
     "camera_fx"          : 518.0,
     "camera_fy"           : 519.0,
-
     "camera_scale"       : 1000.0,
 
     "start_index" : 1,
@@ -29,7 +26,7 @@
 
     "keyframe_threshold":0.1,
     "max_norm_lp":2.0,
-    "check_loop_closure":"yes",
+    "check_loop_closure": "yes",
     "nearby_loops": 5,
     "random_loops": 5,
 

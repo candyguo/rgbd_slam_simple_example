@@ -124,43 +124,17 @@ myrgbd_slam/fast:
 .PHONY : myrgbd_slam/fast
 
 #=============================================================================
-# Target rules for targets named visualOdometry
+# Target rules for targets named slam
 
 # Build rule for target.
-visualOdometry: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualOdometry
-.PHONY : visualOdometry
+slam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 slam
+.PHONY : slam
 
 # fast build rule for target.
-visualOdometry/fast:
-	$(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
-.PHONY : visualOdometry/fast
-
-#=============================================================================
-# Target rules for targets named slambase
-
-# Build rule for target.
-slambase: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 slambase
-.PHONY : slambase
-
-# fast build rule for target.
-slambase/fast:
-	$(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
-.PHONY : slambase/fast
-
-#=============================================================================
-# Target rules for targets named detectFeatures
-
-# Build rule for target.
-detectFeatures: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 detectFeatures
-.PHONY : detectFeatures
-
-# fast build rule for target.
-detectFeatures/fast:
-	$(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
-.PHONY : detectFeatures/fast
+slam/fast:
+	$(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
+.PHONY : slam/fast
 
 #=============================================================================
 # Target rules for targets named jointPointCloud
@@ -176,17 +150,69 @@ jointPointCloud/fast:
 .PHONY : jointPointCloud/fast
 
 #=============================================================================
-# Target rules for targets named slam
+# Target rules for targets named detectFeatures
 
 # Build rule for target.
-slam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 slam
-.PHONY : slam
+detectFeatures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectFeatures
+.PHONY : detectFeatures
 
 # fast build rule for target.
-slam/fast:
-	$(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
-.PHONY : slam/fast
+detectFeatures/fast:
+	$(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
+.PHONY : detectFeatures/fast
+
+#=============================================================================
+# Target rules for targets named generate_pointcloud
+
+# Build rule for target.
+generate_pointcloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate_pointcloud
+.PHONY : generate_pointcloud
+
+# fast build rule for target.
+generate_pointcloud/fast:
+	$(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+.PHONY : generate_pointcloud/fast
+
+#=============================================================================
+# Target rules for targets named Dense_Mono
+
+# Build rule for target.
+Dense_Mono: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Dense_Mono
+.PHONY : Dense_Mono
+
+# fast build rule for target.
+Dense_Mono/fast:
+	$(MAKE) -f src/CMakeFiles/Dense_Mono.dir/build.make src/CMakeFiles/Dense_Mono.dir/build
+.PHONY : Dense_Mono/fast
+
+#=============================================================================
+# Target rules for targets named slambase
+
+# Build rule for target.
+slambase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 slambase
+.PHONY : slambase
+
+# fast build rule for target.
+slambase/fast:
+	$(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
+.PHONY : slambase/fast
+
+#=============================================================================
+# Target rules for targets named visualOdometry
+
+# Build rule for target.
+visualOdometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualOdometry
+.PHONY : visualOdometry
+
+# fast build rule for target.
+visualOdometry/fast:
+	$(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+.PHONY : visualOdometry/fast
 
 #=============================================================================
 # Target rules for targets named slamEnd
@@ -202,17 +228,17 @@ slamEnd/fast:
 .PHONY : slamEnd/fast
 
 #=============================================================================
-# Target rules for targets named generate_pointcloud
+# Target rules for targets named stereoVision
 
 # Build rule for target.
-generate_pointcloud: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 generate_pointcloud
-.PHONY : generate_pointcloud
+stereoVision: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereoVision
+.PHONY : stereoVision
 
 # fast build rule for target.
-generate_pointcloud/fast:
-	$(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
-.PHONY : generate_pointcloud/fast
+stereoVision/fast:
+	$(MAKE) -f src/CMakeFiles/stereoVision.dir/build.make src/CMakeFiles/stereoVision.dir/build
+.PHONY : stereoVision/fast
 
 main.o: main.cpp.o
 
@@ -250,13 +276,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myrgbd_slam"
-	@echo "... visualOdometry"
-	@echo "... slambase"
-	@echo "... detectFeatures"
-	@echo "... jointPointCloud"
 	@echo "... slam"
-	@echo "... slamEnd"
+	@echo "... jointPointCloud"
+	@echo "... detectFeatures"
 	@echo "... generate_pointcloud"
+	@echo "... Dense_Mono"
+	@echo "... slambase"
+	@echo "... visualOdometry"
+	@echo "... slamEnd"
+	@echo "... stereoVision"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

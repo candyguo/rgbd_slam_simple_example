@@ -1,0 +1,4 @@
+Log file created at: 2018/10/19 15:37:11
+Running on machine: ccfy-ThinkPad-T470
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1019 15:37:11.998404 25190 slam.cpp:280] T.INVERSE is used

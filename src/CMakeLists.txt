@@ -13,7 +13,7 @@ include_directories( ${G2O_INCLUDE_DIRS})
 FIND_PACKAGE(CSparse REQUIRED)
 include_directories(${CSPARSE_INCLUDE_DIRS})
 
-find_package(OpenCV 2.4.9 REQUIRED)
+FIND_PACKAGE(OpenCV 2.4.9 REQUIRED)
 INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
 
 include_directories( "/usr/include/eigen3" )
@@ -57,3 +57,15 @@ add_executable(slam slam.cpp)
 target_link_libraries(slam slambase ${OpenCV_LIBS} ${PCL_LIBRARIES}
         ${Sophus_LIBRARIES} g2o_core g2o_types_slam3d g2o_solver_csparse
         g2o_stuff g2o_csparse_extension ${CSPARSE_LIBRARY} ${Pangolin_LIBRARIES} glog)
+
+
+#FIND_PACKAGE(OpenCV REQUIRED)
+#INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
+#
+add_executable(stereoVision stereoVision.cpp)
+target_link_libraries(stereoVision ${OpenCV_LIBS} ${Pangolin_LIBRARIES})
+
+add_executable(Dense_Mono Dense_Mono.cpp)
+target_link_libraries(Dense_Mono slambase ${OpenCV_LIBS} ${PCL_LIBRARIES}
+        ${Sophus_LIBRARIES} g2o_core g2o_types_slam3d g2o_solver_csparse
+        g2o_stuff g2o_csparse_extension ${CSPARSE_LIBRARY} ${Pangolin_LIBRARIES})
